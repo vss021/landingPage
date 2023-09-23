@@ -55,9 +55,9 @@ const Contact = () => {
 
       <form action="" className=" text-center px-2">
 
-        <div className="pb-10 flex flex-wrap gap-y-3">
+        <div className="pb-10  flex flex-wrap  justify-center gap-y-3">
 
-          <label htmlFor="text" className="pr-3 text-xl">
+          <label htmlFor="text" className="lg:px-20 px-8 pr-3 text-xl">
             Name:
           </label>
 
@@ -65,13 +65,13 @@ const Contact = () => {
             type="text"
             name="name"
             id="name"
-            className=" focus:outline-none border-b-2 px-5"
+            className=" focus:outline-none border-b-2 px-5 "
           />
 
-          <label className="md:px-5 pr-3 text-xl" htmlFor="text">
+          
+          <label className="lg:px-20 px-8 pr-3 text-xl" htmlFor="text">
             Email
           </label>
-
           <input
             type="email"
             name="email"
